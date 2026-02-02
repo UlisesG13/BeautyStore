@@ -7,7 +7,7 @@ const products = [
         name: "Soft Pinch Liquid Blush",
         brand: "Rare Beauty",
         type: "Rubor Líquido",
-        price: 580,
+        price: 250,
         image: "/images/products/face-RareBeautyBlush/face-RareBlush.png",
         shades: [
             { name: "Joy", image: "/images/products/face-RareBeautyBlush/shades/Joy.png" },
@@ -30,7 +30,7 @@ const products = [
         name: "3D Hydra Lipgloss",
         brand: "Kiko Milano",
         type: "Gloss Hidratante",
-        price: 450,
+        price: 300,
         image: "/images/products/lip-KikoGloss/lip-KikoGloss.png",
         shades: [
             { name: "Brun Rose", image: "/images/products/lip-KikoGloss/shades/BrunRose.png" },
@@ -45,17 +45,17 @@ const products = [
     },
     {
         id: 3,
-        name: "Positive Light Liquid Luminizer",
+        name: "Positive Light Luminizer",
         brand: "Rare Beauty",
-        type: "Iluminador Líquido",
-        price: 600,
+        type: "Iluminador en crema",
+        price: 300,
         image: "/images/products/face-RareBeautyIluminador/face-RareIluminador.png",
         shades: [
             { name: "Enlighten", image: "/images/products/face-RareBeautyIluminador/shades/Enlightenn.png" },
             { name: "Exhilarate", image: "/images/products/face-RareBeautyIluminador/shades/Exhilarate.png" },
             { name: "Mesmerize", image: "/images/products/face-RareBeautyIluminador/shades/Mesmerize.png" }
         ],
-        description: "Iluminador líquido que brinda a la piel un brillo instantáneo similar al vidrio.",
+        description: "Iluminador en crema que brinda a la piel un brillo instantáneo similar al vidrio.",
         category: "rostro"
     },
     {
@@ -63,7 +63,7 @@ const products = [
         name: "Soft Pinch Tinted Lip Oil",
         brand: "Rare Beauty",
         type: "Aceite Labial",
-        price: 520,
+        price: 200,
         image: "/images/products/lip-RareBeautyGloss/lip-RareGloss.png",
         shades: [
             { name: "Happy", image: "/images/products/lip-RareBeautyGloss/shades/Happy.png" },
@@ -80,7 +80,7 @@ const products = [
         name: "Jelly Wow Hydrating Lip Oil",
         brand: "Sheglam",
         type: "Aceite Labial",
-        price: 180,
+        price: 150,
         image: "/images/products/lip-sheglamglaze/lip-sheglamglaze.png",
         shades: [
             { name: "Candy Lane", image: "/images/products/lip-sheglamglaze/shades/candyLane.png" },
@@ -96,7 +96,7 @@ const products = [
         name: "Sun Sculpt Bronzer",
         brand: "Sheglam",
         type: "Bronceador",
-        price: 220,
+        price: 150,
         image: "/images/products/face-sheglamBronzer/face-bronzerSheglam.png",
         shades: [
             { name: "Caramel", image: "/images/products/face-sheglamBronzer/shades/Caramel.png" },
@@ -104,7 +104,7 @@ const products = [
             { name: "Terracota", image: "/images/products/face-sheglamBronzer/shades/Terracota.png" },
             { name: "Umber", image: "/images/products/face-sheglamBronzer/shades/Umber.png" }
         ],
-        description: "Bronceador en polvo para un acabado soleado y natural.",
+        description: "Bronceador en crema para un acabado soleado y natural.",
         category: "rostro"
     },
     {
@@ -112,7 +112,7 @@ const products = [
         name: "Max Volume Mascara",
         brand: "Sheglam",
         type: "Máscara de Pestañas",
-        price: 150,
+        price: 130,
         image: "/images/products/face-sheglamMascaraPestañas/MaskEyes.png",
         shades: [
             { name: "Waterproof Black", image: "/images/products/face-sheglamMascaraPestañas/shades/WaterProofBlack.png" }
@@ -125,7 +125,7 @@ const products = [
         name: "Pout Perfect Shine Lip Glaze",
         brand: "Sheglam",
         type: "Gloss Labial",
-        price: 160,
+        price: 150,
         image: "/images/products/lip-sheglamlabialglaze/lip-labialglaze.png",
         shades: [
             { name: "Berry Spritz", image: "/images/products/lip-sheglamlabialglaze/shades/berrySpritz.png" },
@@ -142,7 +142,7 @@ const products = [
         name: "Color Bloom Liquid Blush",
         brand: "Sheglam",
         type: "Rubor Líquido",
-        price: 170,
+        price: 150,
         image: "/images/products/lipAndFace-sheglamBlush/lipAndFace-SheglamBlush.png",
         shades: [
             { name: "Ahoy", image: "/images/products/lipAndFace-sheglamBlush/shades/Ahoy.png" },
@@ -152,7 +152,97 @@ const products = [
         ],
         description: "Rubor líquido multiusos para labios y mejillas con acabado natural.",
         category: "rostro"
-    }
+    },
+    {
+        id: 10,
+        name: "Poudre Universelle Libre",
+        brand: "Chanel",
+        type: "Polvo",
+        price: 280,
+        image: "/images/products/face-ChanelPolvo/face-ChanelPolvo.png",
+        shades: [
+            { name: "Ligth", image: "/images/products/face-ChanelPolvo/shades/Light.png" },
+            { name: "MediumLigth", image: "/images/products/face-ChanelPolvo/shades/MediumLight.png" },
+            { name: "RosiLigth", image: "/images/products/face-ChanelPolvo/shades/RosiLight.png" },
+        ],
+        description: "Polvos perfeccionadores de textura ultraligera que matifican la piel sin dejar marcas y realzan delicadamente la tez.",
+        category: "rostro"
+    },
+    {
+        id: 11,
+        name: "All Hours Concealer",
+        brand: "YSL Beauty",
+        type: "Corrector",
+        price: 270,
+        image: "/images/products/face-YslCorrector/face-YslCorrector.png",
+        shades: [
+            { name: "LC1", image: "/images/products/face-YslCorrector/shades/LC1.png" },
+            { name: "LC2", image: "/images/products/face-YslCorrector/shades/LC2.png" },
+            { name: "LN4", image: "/images/products/face-YslCorrector/shades/LN4.png" },
+        ],
+        description: "Un corrector multiusos para ocultar, esculpir o realzar con precisión con un acabado mate luminoso. Hidratado hasta 24 horas.",
+        category: "rostro"
+    },
+    {
+        id: 12,
+        name: "Le Volume De Chanel",
+        brand: "Chanel",
+        type: "Máscara de Pestañas",
+        price: 200,
+        image: "/images/products/face-ChanelMascaraPestañas/Chanel-MaskEyes.png",
+        shades: [
+            { name: "Noir", image: "/images/products/face-ChanelMascaraPestañas/shades/Noir.png" },
+        ],
+        description: "Esta innovadora máscara de pestañas de alta precisión logra un volumen instantáneo y un color intenso en un solo trazo para unas pestañas más largas y de aspecto más grueso.",
+        category: "ojos"
+    },
+    {
+        id: 13,
+        name: "Huile Makeup Remover",
+        brand: "Chanel",
+        type: "Desmaquillante",
+        price: 350,
+        image: "/images/products/face-ChanelDesmaquillante/ChanelDesmaquillante.png",
+        shades: [
+            { name: "L'Huile", image: "/images/products/face-ChanelDesmaquillante/shades/L'Huile.png" },
+        ],
+        description: "Desmaquillar cuidadosamente la piel es una disciplina diaria, marcada por gestos esenciales. CHANEL crea La Colección de Limpiadores y Desmaquillantes con fórmulas sensoriales adaptadas a todos los tipos de piel.",
+        category: "rostro"
+    },
+    {
+        id: 14,
+        name: "Color Liquid Rouge",
+        brand: "Chanel",
+        type: "Rubor Líquido",
+        price: 140,
+        image: "/images/products/face-SheglamRubor/SheglamRubor.png",
+        shades: [
+            { name: "Devoted", image: "/images/products/face-SheglamRubor/shades/Devoted.png" },
+            { name: "LoveCake", image: "/images/products/face-SheglamRubor/shades/LoveCake.png" },
+            { name: "NightDrive", image: "/images/products/face-SheglamRubor/shades/NightDrive.png" },
+            { name: "RiskyBusiness", image: "/images/products/face-SheglamRubor/shades/RiskyBusiness.png" },
+            { name: "RoseRitual", image: "/images/products/face-SheglamRubor/shades/RoseRitual.png" },
+            { name: "SwipeRight", image: "/images/products/face-SheglamRubor/shades/SwipeRight.png" },
+        ],
+        description: "Rubor Liquido resistente al agua larga duración alta pigmentación natural.",
+        category: "rostro"
+    },
+    {
+        id: 15,
+        name: "Glamour Multi Finish Eyeshadow Palette",
+        brand: "Kiko",
+        type: "Paleta de Sombras",
+        price: 290,
+        image: "/images/products/eyes-KikoSombra/EyesSombra.png",
+        shades: [
+            { name: "01EarthTones", image: "/images/products/eyes-KikoSombra/shades/01EarthTones.png" },
+            { name: "02SunsetVibes", image: "/images/products/eyes-KikoSombra/shades/02SunsetVibes.png" },
+            { name: "03BurgundyNotes", image: "/images/products/eyes-KikoSombra/shades/03BurgundyNotes.png" },
+            { name: "04MauveSelection", image: "/images/products/eyes-KikoSombra/shades/04MauveSelection.png" },
+        ],
+        description: "Paleta de sombras Kiko que permite hacer que la mirada se convierta en la auténtica protagonista y crear looks de ojos coloridos y de tendencia, naturales para el día o intensos para la noche.",
+        category: "ojos"
+    },
 ];
 
 export default function BeautyLanding() {
@@ -168,7 +258,7 @@ export default function BeautyLanding() {
     const phoneNumber = "+529615618512";
 
     const handleWhatsAppClick = (product) => {
-        const message = `Hola! Me interesa pedir el ${product.name} de ${product.brand}. ¿Qué tonos tienes disponibles para entrega inmediata o pedido?`;
+        const message = `Hola! Me interesa pedir el ${product.name} de ${product.brand}. ¿Qué tonos tienes disponibles?`;
         const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
         window.open(url, '_blank');
     };
@@ -180,7 +270,6 @@ export default function BeautyLanding() {
     return (
         <div className={`min-h-screen bg-rose-50 font-sans selection:bg-rose-200 selection:text-rose-900 transition-opacity duration-700 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}>
 
-            {/* --- HEADER --- */}
             <header className="sticky top-0 z-40 bg-white/80 backdrop-blur-md shadow-sm border-b border-rose-100">
                 <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
                     <div className="flex items-center gap-2">
@@ -197,7 +286,6 @@ export default function BeautyLanding() {
                 </div>
             </header>
 
-            {/* --- HERO SECTION --- */}
             <section className="relative overflow-hidden bg-white mb-8">
                 <div className="absolute inset-0 bg-gradient-to-r from-rose-100 to-transparent opacity-50"></div>
                 <div className="max-w-6xl mx-auto px-4 py-16 md:py-24 relative z-10 text-center">
@@ -216,7 +304,6 @@ export default function BeautyLanding() {
                 </div>
             </section>
 
-            {/* --- FILTROS --- */}
             <div className="max-w-6xl mx-auto px-4 mb-10 flex justify-center gap-3 flex-wrap">
                 {['todos', 'labios', 'rostro', 'ojos'].map((cat) => (
                     <button
@@ -232,7 +319,6 @@ export default function BeautyLanding() {
                 ))}
             </div>
 
-            {/* --- GRID DE PRODUCTOS --- */}
             <main className="max-w-6xl mx-auto px-4 pb-20">
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {filteredProducts.map((product) => (
@@ -241,7 +327,6 @@ export default function BeautyLanding() {
                             onClick={() => setSelectedProduct(product)}
                             className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 cursor-pointer border border-rose-50 hover:-translate-y-2"
                         >
-                            {/* Imagen */}
                             <div className="relative aspect-[4/5] overflow-hidden bg-gray-100">
                                 <img
                                     src={product.image}
@@ -251,7 +336,6 @@ export default function BeautyLanding() {
                                 <div className="absolute top-3 right-3 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-xs font-bold text-gray-800 shadow-sm">
                                     {product.brand}
                                 </div>
-                                {/* Overlay al hacer hover en desktop */}
                                 <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                                     <span className="bg-white text-gray-900 px-6 py-2 rounded-full font-bold transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
                                         Ver Tonos
@@ -259,7 +343,6 @@ export default function BeautyLanding() {
                                 </div>
                             </div>
 
-                            {/* Info Rápida */}
                             <div className="p-5">
                                 <div className="flex justify-between items-start mb-2">
                                     <div>
@@ -276,19 +359,15 @@ export default function BeautyLanding() {
                 </div>
             </main>
 
-            {/* --- MODAL DETALLE DE PRODUCTO --- */}
             {selectedProduct && (
                 <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
-                    {/* Backdrop con blur */}
                     <div
                         className="absolute inset-0 bg-black/40 backdrop-blur-sm transition-opacity"
                         onClick={() => setSelectedProduct(null)}
                     ></div>
 
-                    {/* Modal Card */}
                     <div className="relative bg-white rounded-3xl shadow-2xl w-full max-w-4xl max-h-[90vh] overflow-hidden flex flex-col md:flex-row animate-[fadeIn_0.3s_ease-out]">
 
-                        {/* Botón Cerrar */}
                         <button
                             onClick={() => setSelectedProduct(null)}
                             className="absolute top-4 right-4 z-10 bg-white/80 p-2 rounded-full hover:bg-gray-100 transition-colors"
@@ -296,7 +375,6 @@ export default function BeautyLanding() {
                             <X size={24} />
                         </button>
 
-                        {/* Imagen Modal */}
                         <div className="w-full md:w-1/2 h-64 md:h-auto bg-gray-100">
                             <img
                                 src={selectedProduct.image}
@@ -305,7 +383,6 @@ export default function BeautyLanding() {
                             />
                         </div>
 
-                        {/* Contenido Modal */}
                         <div className="w-full md:w-1/2 p-8 overflow-y-auto">
                             <div className="mb-6">
                                 <span className="text-rose-500 font-bold tracking-widest text-xs uppercase mb-2 block">
@@ -321,7 +398,6 @@ export default function BeautyLanding() {
                                 </p>
                             </div>
 
-                            {/* Sección de Tonos */}
                             <div className="mb-8">
                                 <h3 className="flex items-center gap-2 font-bold text-gray-800 mb-4 text-lg">
                                     <Heart size={20} className="text-rose-500 fill-current" />
@@ -334,7 +410,6 @@ export default function BeautyLanding() {
                                             onClick={() => setSelectedShade(shade)}
                                             className="group relative bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer border-2 border-transparent hover:border-rose-300 active:scale-95"
                                         >
-                                            {/* Imagen del tono */}
                                             <div className="aspect-square overflow-hidden">
                                                 <img
                                                     src={shade.image}
@@ -342,17 +417,14 @@ export default function BeautyLanding() {
                                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                                                 />
                                             </div>
-                                            {/* Icono de zoom */}
                                             <div className="absolute top-2 right-2 bg-white/80 p-1.5 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                                 <Sparkles size={14} className="text-rose-500" />
                                             </div>
-                                            {/* Overlay con nombre */}
                                             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4">
                                                 <span className="text-white font-semibold text-sm px-3 py-1 bg-rose-500/80 rounded-full backdrop-blur-sm">
                                                     Click para ver
                                                 </span>
                                             </div>
-                                            {/* Nombre siempre visible debajo */}
                                             <div className="p-3 text-center bg-gradient-to-r from-rose-50 to-pink-50">
                                                 <span className="text-gray-700 font-medium text-sm">{shade.name}</span>
                                             </div>
@@ -364,7 +436,6 @@ export default function BeautyLanding() {
                                 </p>
                             </div>
 
-                            {/* Botón de Acción Principal */}
                             <button
                                 onClick={() => handleWhatsAppClick(selectedProduct)}
                                 className="w-full py-4 bg-green-500 hover:bg-green-600 text-white rounded-xl font-bold text-lg shadow-lg shadow-green-200 transition-all transform hover:-translate-y-1 flex items-center justify-center gap-3"
@@ -378,7 +449,6 @@ export default function BeautyLanding() {
             )
             }
 
-            {/* --- FLOATING WHATSAPP BUTTON --- */}
             <a
                 href={`https://wa.me/${phoneNumber}`}
                 target="_blank"
@@ -388,25 +458,21 @@ export default function BeautyLanding() {
                 <MessageCircle size={28} />
             </a>
 
-            {/* --- FOOTER --- */}
             <footer className="bg-white border-t border-rose-100 py-8 text-center">
                 <p className="text-gray-500 font-light">
-                    © 2024 bySmartHill | BeautyStore. Envíos seguros y productos 100% originales.
+                    © 2026 bySmartHill | BeautyStore. Entregas seguras y productos 100% originales.
                 </p>
             </footer>
 
-            {/* --- LIGHTBOX PARA TONO SELECCIONADO --- */}
             {selectedShade && (
                 <div
                     className="fixed inset-0 z-[60] flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-[fadeIn_0.2s_ease-out]"
                     onClick={() => setSelectedShade(null)}
                 >
-                    {/* Contenedor de imagen */}
                     <div
                         className="relative max-w-2xl w-full max-h-[85vh] animate-[fadeIn_0.3s_ease-out]"
                         onClick={(e) => e.stopPropagation()}
                     >
-                        {/* Botón cerrar */}
                         <button
                             onClick={() => setSelectedShade(null)}
                             className="absolute -top-12 right-0 text-white hover:text-rose-300 transition-colors"
@@ -414,14 +480,12 @@ export default function BeautyLanding() {
                             <X size={32} />
                         </button>
 
-                        {/* Imagen grande */}
                         <div className="bg-white rounded-3xl overflow-hidden shadow-2xl">
                             <img
                                 src={selectedShade.image}
                                 alt={selectedShade.name}
                                 className="w-full h-auto max-h-[70vh] object-contain"
                             />
-                            {/* Nombre del tono */}
                             <div className="p-6 text-center bg-gradient-to-r from-rose-50 via-pink-50 to-rose-50">
                                 <h4 className="text-2xl font-bold text-gray-800 mb-2">{selectedShade.name}</h4>
                                 <p className="text-rose-500 font-medium">
@@ -430,7 +494,6 @@ export default function BeautyLanding() {
                             </div>
                         </div>
 
-                        {/* Indicador de cerrar */}
                         <p className="text-white/60 text-center mt-4 text-sm">
                             Toca fuera de la imagen para cerrar
                         </p>
