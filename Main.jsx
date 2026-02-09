@@ -243,6 +243,72 @@ const products = [
         description: "Paleta de sombras Kiko que permite hacer que la mirada se convierta en la auténtica protagonista y crear looks de ojos coloridos y de tendencia, naturales para el día o intensos para la noche.",
         category: "ojos"
     },
+    {
+        id: 16,
+        name: "LE ROUGE DUO ULTRA TENUE",
+        brand: "Chanel",
+        type: "Labial",
+        price: 200,
+        image: "/images/products/lip-ChanelLabial/LabialChanel.png",
+        shades: [
+            { name: "40-Ligth Rose", image: "/images/products/lip-ChanelLabial/shades/40-LightRose.png" },
+            { name: "47-Darin Gred", image: "/images/products/lip-ChanelLabial/shades/47-DaringRed.png" },
+            { name: "48-Soft Rose", image: "/images/products/lip-ChanelLabial/shades/48-SoftRose.png" },
+            { name: "49-Ever Red", image: "/images/products/lip-ChanelLabial/shades/49-EverRed.png" },
+            { name: "54-Strawberry Red", image: "/images/products/lip-ChanelLabial/shades/54-StrawberryRed.png" },
+            { name: "69-Tender Beige", image: "/images/products/lip-ChanelLabial/shades/69-TenderBeige.png" },
+            { name: "174-Endless Pink", image: "/images/products/lip-ChanelLabial/shades/174-EndlessPink.png" },
+            { name: "176-Burning Red", image: "/images/products/lip-ChanelLabial/shades/176-BurningRed.png" },
+            { name: "182-Light Brown", image: "/images/products/lip-ChanelLabial/shades/182-LightBrown.png" },
+            { name: "186-Pink Nude", image: "/images/products/lip-ChanelLabial/shades/186-PinkNude.png" },
+            { name: "188-Caramel Beige", image: "/images/products/lip-ChanelLabial/shades/188-CaramelBeige.png" },
+            { name: "192-Coral Pink", image: "/images/products/lip-ChanelLabial/shades/192-CoralPink.png" },
+            { name: "194-Intense Nude", image: "/images/products/lip-ChanelLabial/shades/194-IntenseNude.png" },
+            { name: "196-Red Brown", image: "/images/products/lip-ChanelLabial/shades/196-RedBrown.png" },
+        ],
+        description: "Un lápiz labial líquido ultrasaturado combinado con un brillo de alto brillo para una cobertura total y un color de larga duración.",
+        category: "labios"
+    },
+    {
+        id: 17,
+        name: "Air Matte Ultra",
+        brand: "Nars",
+        type: "Labial",
+        price: 200,
+        image: "/images/products/lip-NarsLabial/NarsLabial.png",
+        shades: [
+            { name: "317-Sex Kitten", image: "/images/products/lip-NarsLabial/shades/317-SexKitten.png" },
+            { name: "318-Shows Topper", image: "/images/products/lip-NarsLabial/shades/318-ShowsTopper.png" },
+            { name: "319-Muse", image: "/images/products/lip-NarsLabial/shades/319-Muse.png" },
+            { name: "320-Gone Wild", image: "/images/products/lip-NarsLabial/shades/320-GoneWild.png" },
+            { name: "321-Turned On", image: "/images/products/lip-NarsLabial/shades/321-TurnedOn.png" },
+            { name: "888-Donce Vita", image: "/images/products/lip-NarsLabial/shades/888-DonceVita.png" },
+        ],
+        description: "Es la elección perfecta para quienes desean un maquillaje de labios sofisticado y de larga duración. Su fórmula innovadora, ligera y aterciopelada, garantiza una aplicación uniforme y un acabado mate aterciopelado sin efecto seco. Gracias a su textura ultra fina, se adhiere perfectamente a los labios, ofreciendo un color intenso y vibrante que resiste durante mucho tiempo sin correrse. ",
+        category: "labios"
+    },
+    {
+        id: 18,
+        name: "Prada Monochrome Hyper Matte, Sotf Mate & Light Glowing",
+        brand: "Prada",
+        type: "Labial",
+        price: 250,
+        image: "/images/products/lip-PradaLabial/PradaLabial.png",
+        shades: [
+            { name: "B01-Argile", image: "/images/products/lip-PradaLabial/shades/B01-Argile.png" },
+            { name: "B02-Quartz", image: "/images/products/lip-PradaLabial/shades/B02-Quartz.png" },
+            { name: "B03-Mahogany", image: "/images/products/lip-PradaLabial/shades/B03-Mahogany.png" },
+            { name: "B05-Fauve", image: "/images/products/lip-PradaLabial/shades/B05-Fauve.png" },
+            { name: "B07-Arancio", image: "/images/products/lip-PradaLabial/shades/B077-Arancio.png" },
+            { name: "B101-Tiepolo", image: "/images/products/lip-PradaLabial/shades/B101-Tiepolo.png" },
+            { name: "B103-Auburn", image: "/images/products/lip-PradaLabial/shades/B103-Auburn.png" },
+            { name: "U014-White", image: "/images/products/lip-PradaLabial/shades/U014-White.png" },
+            { name: "U019-Brown", image: "/images/products/lip-PradaLabial/shades/U019-Brown.png" },
+
+        ],
+        description: "Un labial mate recargable de larga duración, ligero y con una cobertura de una sola pasada. Un labial recargable, ligero y con un acabado mate difuso y modulable que dura hasta 6 horas.",
+        category: "labios"
+    },
 ];
 
 export default function BeautyLanding() {
