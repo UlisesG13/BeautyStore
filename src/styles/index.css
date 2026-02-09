@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ========================================
+   BASE STYLES
+   ======================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ========================================
+   CUSTOM ANIMATIONS
+   ======================================== */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* ========================================
+   TAILWIND COMPONENT LAYER
+   Reusable component classes using @apply
+   ======================================== */
+
+@layer components {
+
+    /* Button variants */
+    .btn-base {
+        @apply font-medium transition-all duration-300 transform hover:-translate-y-0.5 flex items-center justify-center gap-2 rounded-full;
+    }
+
+    .btn-primary {
+        @apply btn-base px-6 py-2 bg-rose-500 text-white hover:bg-rose-600 shadow-lg shadow-rose-200;
+    }
+
+    .btn-secondary {
+        @apply btn-base px-6 py-2 bg-white text-gray-600 hover:bg-rose-50 border border-rose-100;
+    }
+
+    .btn-whatsapp {
+        @apply btn-base bg-green-500 text-white hover:bg-green-600 shadow-lg shadow-green-200;
+    }
+
+    /* Card styles */
+    .card {
+        @apply bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-rose-50;
+    }
+
+    .card-hover {
+        @apply card cursor-pointer hover:-translate-y-2;
+    }
+
+    /* Modal backdrop */
+    .modal-backdrop {
+        @apply fixed inset-0 bg-black/40 backdrop-blur-sm;
+    }
+
+    /* Badge styles */
+    .badge {
+        @apply inline-block px-3 py-1 rounded-full text-xs font-bold shadow-sm backdrop-blur;
+    }
+
+    .badge-brand {
+        @apply badge bg-white/90 text-gray-800;
+    }
+
+    .badge-price {
+        @apply badge bg-rose-50 text-rose-600;
+    }
+
+    /* Focus states for accessibility */
+    .focus-ring {
+        @apply focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2;
+    }
+}
+
+/* ========================================
+   TAILWIND UTILITIES LAYER
+   Custom utilities
+   ======================================== */
+
+@layer utilities {
+
+    /* Text gradient utility */
+    .text-gradient-rose-purple {
+        @apply text-transparent bg-clip-text bg-gradient-to-r from-rose-400 to-purple-500;
+    }
+
+    /* Glass effect */
+    .glass {
+        @apply bg-white/80 backdrop-blur-md;
+    }
+
+    /* Smooth image hover */
+    .img-hover {
+        @apply transition-transform duration-700 group-hover:scale-110;
+    }
+
+    /* Hide scrollbar but allow scrolling */
+    .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+    }
+}
